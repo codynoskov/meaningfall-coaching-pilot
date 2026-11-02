@@ -1,0 +1,11 @@
+Help me continue my Coaching project on this Windows computer.
+
+Download this package:
+https://github.com/codynoskov/meaningfall-coaching-pilot/releases/download/coaching-windows-20261102-r2/Coaching-Pilot-Windows-20261102-r2.zip
+
+Follow the startup instructions here:
+https://github.com/codynoskov/meaningfall-coaching-pilot/blob/main/START-HERE.md
+
+Prepare and start Meaningfall yourself using the tools and instructions in the package. Reuse the existing project materials. I have no technical knowledge: do not ask me to install tools, run commands or understand settings. If a real permission or a click is necessary, explain it in simple words.
+
+Guide me through onboarding with clear, manageable suggestions based on what is already known. Let me confirm them or give corrections. Ask only about genuinely missing project facts or choices, explain why they matter, and keep unresolved questions visible. Do not invent answers or treat old drafts as accepted decisions.
