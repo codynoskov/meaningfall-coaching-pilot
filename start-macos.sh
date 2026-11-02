@@ -6,14 +6,14 @@ root="${1:-$PWD/Coaching-Pilot-Test}"
 mkdir -p "$root/downloads"
 root="$(cd "$root" && pwd -P)"
 registry="$root/distribution-current.json"
-/usr/bin/curl --fail --location --silent --show-error 'https://raw.githubusercontent.com/codynoskov/meaningfall-coaching-pilot/main/distribution.json' -o "$registry"
+/usr/bin/curl -q --fail --location --silent --show-error 'https://raw.githubusercontent.com/codynoskov/meaningfall-coaching-pilot/main/distribution.json' -o "$registry"
 url="$(/usr/bin/plutil -extract platforms.macos-arm64.url raw -o - "$registry")"
 checksum="$(/usr/bin/plutil -extract platforms.macos-arm64.sha256 raw -o - "$registry")"
 kit_checksum="$(/usr/bin/plutil -extract platforms.macos-arm64.kit_manifest_sha256 raw -o - "$registry")"
 archive="$root/downloads/Coaching-Pilot-macos-arm64-r3.zip"
 if [ ! -f "$archive" ]; then
   [ ! -e "$archive.download" ] || { echo 'Partial download retained; agent must inspect recovery.' >&2; exit 2; }
-  /usr/bin/curl --fail --location --show-error "$url" -o "$archive.download"
+  /usr/bin/curl -q --fail --location --show-error "$url" -o "$archive.download"
   actual="$(/usr/bin/shasum -a 256 "$archive.download" | /usr/bin/awk '{print $1}')"
   [ "$actual" = "$checksum" ] || { echo 'Downloaded package differs; preserve and inspect.' >&2; exit 2; }
   /bin/mv "$archive.download" "$archive"
