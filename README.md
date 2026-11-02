@@ -17,7 +17,7 @@ ChatGPT Work and Intel Mac are not qualified by this delivery.
 - [Exact platform downloads and hashes](distribution.json)
 - [Current release](https://github.com/codynoskov/meaningfall-coaching-pilot/releases/tag/coaching-20261102-r3)
 
-The packages include Python, portable Git, local intake model inputs and the128
+The packages include Python, portable Git, local intake model inputs and the 128
 selected Coaching originals. First setup needs internet and several GB of free
 space. No manual Git/Python/GitHub installation or GitHub login is needed.
 

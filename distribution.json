@@ -18,5 +18,5 @@
       "platform": "windows-amd64"
     }
   },
-  "status": "candidate; final Mac download test pending, Windows occurrence untested"
+  "status": "supervised Apple Silicon pilot: actual public-download startup/intake/restart passed; Windows execution untested"
 }

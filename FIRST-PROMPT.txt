@@ -1,7 +1,7 @@
 Help me continue my Coaching project on this computer.
 
 Read and follow these startup instructions:
-https://github.com/codynoskov/meaningfall-coaching-pilot/blob/main/START-HERE.md
+https://raw.githubusercontent.com/codynoskov/meaningfall-coaching-pilot/main/START-HERE.md
 
 Determine whether this is a Mac or Windows computer, download the matching current package and prepare Meaningfall yourself. Use the existing project files and any personal information that is actually available and permitted. Do not claim access to memory you cannot read.
 

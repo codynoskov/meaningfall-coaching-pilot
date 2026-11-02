@@ -1,0 +1,84 @@
+{
+  "version": "coaching-20261102-r3",
+  "observed_platform": "macOS arm64",
+  "test_author_and_evaluator": "root Codex; synthetic human fixtures; no independent or live-client evaluation",
+  "checks": {
+    "native_work_exists": true,
+    "all_original_paths": true,
+    "actual_preparation": true,
+    "no_model_for_intake": true,
+    "all_original_bytes": true,
+    "synthetic_context_reconciled": true,
+    "same_native_work_after_correction": true,
+    "stable_intake_still_required": true,
+    "context_history_retained": true,
+    "repeat_launcher_succeeded": true,
+    "same_work_after_restart": true,
+    "zero_new_captures_on_restart": true,
+    "corrupt_derivative_held": true,
+    "snapshot_source_unchanged": true
+  },
+  "first_start_seconds": 574.97,
+  "first_start_user_seconds": 183.68,
+  "first_start_system_seconds": 67.85,
+  "full_entry_repeat_seconds": 55.02,
+  "launcher_repeat_seconds": 31.2313340830151,
+  "first_intake": {
+    "files": 128,
+    "model_calls": 0,
+    "native_captures_new": 81,
+    "native_captures_reused": 17,
+    "original_copy_seconds": 0.09492950001731515,
+    "semantic_status": "pending_existing_agent; original preservation is not complete extraction or acceptance",
+    "source_bytes": 42623392,
+    "states": {
+      "prepared_pending_agent_review": 98,
+      "preserved_unsupported_preparation": 30
+    },
+    "wall_seconds": 70.81032108399086
+  },
+  "repeat_intake": {
+    "files": 128,
+    "states": {
+      "prepared_pending_agent_review": 98,
+      "preserved_unsupported_preparation": 30
+    },
+    "native_captures_new": 0,
+    "native_captures_reused": 98,
+    "original_copy_seconds": 0.06182087492197752,
+    "wall_seconds": 0.3463260419666767,
+    "model_calls": 0,
+    "source_bytes": 42623392,
+    "semantic_status": "pending_existing_agent; original preservation is not complete extraction or acceptance"
+  },
+  "personal_tests": [
+    {
+      "case": "personal-available",
+      "wall_seconds": 39.08434166596271,
+      "questions": 1,
+      "known_facts_reused": 5,
+      "persistent_capture_claimed": false,
+      "total_tokens": 14817,
+      "guide_sha256": "87772b2b2fc74aa28098e3bfc4fe9be045ff8288d5ab33a35e43e3aa5b925598",
+      "scope": "Behavior with provided fictional source availability only; no actual ChatGPT memory API or global memory read is established."
+    },
+    {
+      "case": "personal-unavailable",
+      "wall_seconds": 33.140673083020374,
+      "questions": 2,
+      "known_facts_reused": 0,
+      "persistent_capture_claimed": false,
+      "total_tokens": 14409,
+      "guide_sha256": "87772b2b2fc74aa28098e3bfc4fe9be045ff8288d5ab33a35e43e3aa5b925598",
+      "scope": "Behavior with provided fictional source availability only; no actual ChatGPT memory API or global memory read is established."
+    }
+  ],
+  "limits": [
+    "Windows execution untested",
+    "No native ChatGPT-memory API integration",
+    "No Intel Mac support",
+    "Preservation/preparation is not semantic review or client acceptance",
+    "Host Codex and own sign-in already required",
+    "No production website deployment or global runtime cutover"
+  ]
+}
