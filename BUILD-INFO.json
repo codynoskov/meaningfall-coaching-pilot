@@ -1,0 +1,20 @@
+{
+  "revision": "coaching-20261102-r3",
+  "guide_sha256": "87772b2b2fc74aa28098e3bfc4fe9be045ff8288d5ab33a35e43e3aa5b925598",
+  "platform_builds": [
+    {
+      "package": "/private/tmp/meaningfall-coaching-pilot-20261102/runtime-macos-r3",
+      "artifact_sha256": "8b2c37ecc86127235e97ee8016bfe31dbfbf53cef4e3f408eca9ad09361d4013",
+      "native_manifest_sha256": "4ed2285edc924c40e16d0ffaf16ab534a274739b1d6dc6a69c00dd3fa66c63c6",
+      "platform": "macos-arm64",
+      "qualification": "not established by build; inspect actual test report"
+    },
+    {
+      "package": "/private/tmp/meaningfall-coaching-pilot-20261102/runtime-windows-r3-current",
+      "artifact_sha256": "e774ec331e13560bb3229fa190439a0ceedc5aa9b3ade1896e8eca3ed786798f",
+      "native_manifest_sha256": "484873d480e71ede4f6326d96f8a4439eaf8195bb44e40fafe154232db6d93bd",
+      "platform": "windows-amd64",
+      "qualification": "not established by build; inspect actual test report"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "coaching-20261102-r3",
+  "platforms": {
+    "macos-arm64": {
+      "url": "https://github.com/codynoskov/meaningfall-coaching-pilot/releases/download/coaching-20261102-r3/Coaching-Pilot-macos-arm64-r3.zip",
+      "sha256": "cbead1b6bebedd6097cf8dc2f972c1c643ebba21be58ba029003219f5c066971",
+      "kit_manifest_sha256": "0749175a28e525adfe805c8ba61940974a65a58d654245cc85e6364dca96fe0b",
+      "bytes": 901139368,
+      "archive_seconds": 27.679111290955916,
+      "platform": "macos-arm64"
+    },
+    "windows-amd64": {
+      "url": "https://github.com/codynoskov/meaningfall-coaching-pilot/releases/download/coaching-20261102-r3/Coaching-Pilot-windows-amd64-r3.zip",
+      "sha256": "8588f7d1806615e63ccf90fe641e140edc86aa6db487ba6dc1afcb227a3194df",
+      "kit_manifest_sha256": "194ddebf6a05a6eb30bb30f21af6d0f57d7a1036a2af5e1588e86a32abe8ecf5",
+      "bytes": 524227305,
+      "archive_seconds": 15.486712040845305,
+      "platform": "windows-amd64"
+    }
+  },
+  "status": "candidate; final Mac download test pending, Windows occurrence untested"
+}
